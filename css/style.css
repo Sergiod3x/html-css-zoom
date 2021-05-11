@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container-first{
+    display: flex;
+    width: 1200px;
+    flex-direction: column;
+}
+
+main{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 30px ;
+
+}
+
+nav{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    background-color:rgb(43, 41, 41);
+    justify-content:space-between;
+}
+
+.small-photo{
+    display: flex;
+    width: 130px;
+    height: 80px;
+    margin: 10px;
+    background-image: url(../img/gremlims.jpg);
+    background-size: contain;
+    align-items: flex-end;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pinco{
+    background-color: rgba(128, 128, 128, 0.438);
+    color: white;
+    font-size: small;
+}
+
+.audio-video{
+    width: 50px;
+    background-color: chartreuse;
+}
+
+.more{
+    width: 150px;
+    background-color: cornflowerblue;
+}
+
+.end-button{
+    width: 50px;
+    background-color: darkgoldenrod;
+}
